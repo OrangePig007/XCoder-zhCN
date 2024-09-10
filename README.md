@@ -1,51 +1,27 @@
-# XCoder - easy to use modding tool
-Multiplatform modding tool for ANY Supercell\`s game.
+# XCoder - 易用的Supercell资产处理程序
+可以多平台处理来自任何Supercell家游戏资产文件。
 
-## About
-Work with Supercell\`s files on **any** os! SC and CSV are supported for all Supercell\`s games.
+### 特性:
+- SC和PNG互转格式;
+- 压缩或解压CSV数据文件。
 
-### Features:
-- SC compile / decompile;
-- Compression and decompression.
+### 安装使用教程（大陆最好开梯子）：
+- Windows端:
+  - 到[官网](https://www.python.org/downloads/)下载 Python 3.7 或更新版本;
+  - 安装 Python。在安装过程中，勾选以下选项："Add Python to PATH"、"Install pip"、"Install py launcher"、"Associate files with Python" 以及 "Add Python to environment variables";
+  - 从发布页面下载 XCoder，并解压缩；
+  - 找到解压后的目录，安装所需模块: pip install -r requirements.txt;
+  - 运行 "main.py" 文件。
 
-### How to install and use
-- On Windows:
-  - Download Python 3.7 or newer version from [official page](https://www.python.org/downloads/);
-  - Install Python. While Installing, enable such parameters as "Add Python to PATH", "Install pip", "Install py launcher", "Associate files with Python" and "Add Python to environment variables";
-  - Download XCoder from the [releases page](https://github.com/Vorono4ka/XCoder/releases) and extract it;
-  - Locate the extracted directory and install required modules: 
-    ```pip install -r requirements.txt```;
-  - Execute "main.py" file.
+### 启用 KTX 模块
 
-- On Linux:
-  - Open Terminal and install Python by executing following command: 
-    ```sudo apt-get update && sudo apt-get install python3 python3-pip```;
-  - Download XCoder from the [releases page](https://github.com/Vorono4ka/XCoder/releases) and extract it;
-  - Locate the extracted directory and install required modules by executing following command:
-    ```sudo pip3 install -r requirements.txt```;
-  - Execute "main.py" file.
+**Supercell 在游戏的新版本中也使用了 KTX 纹理，因此建议执行此步骤。
 
-- On Android:
-  - Download and install PyDroid app from [Google Play](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3);
-  - Open PyDroid and wait until Python installs;
-  - Download XCoder from the [releases page](https://github.com/Vorono4ka/XCoder/releases) and extract it;
-  - Install loguru using pip;
-  - In PyDroid open and execute "main.py" file.
+要启用 KTX 模块，你需要从官方网站获取 "PVRTexToolCLI" 二进制文件: https://developer.imaginationtech.com/pvrtextool/。
 
-### How to enable KTX section
+然后将 CLI 放置在主脚本文件夹中的 "system/bin/" 目录下。
 
-![KTX section demo](docs/KTX section.png)
+## 致谢
+该工具基于原 版[XCoder](https://github.com/MasterDevX/xcoder), 开发者：[MasterDevX](https://github.com/MasterDevX)</br>
 
-**Supercell also uses KTX textures in new versions of the games, so it is advisable to perform this step.**
-
-To enable the KTX module, you need to get the "PVRTexToolCLI" binary from the official site: https://developer.imaginationtech.com/pvrtextool/. 
-
-Then it is necessary to put CLI in "system/bin/" folder in the main script folder.
-
-### In the plans:
-- CSV updating.
-
-## Credits
-This tool is based on Original [XCoder](https://github.com/MasterDevX/xcoder), Developer: [MasterDevX](https://github.com/MasterDevX)</br>
-
-Many thanks to [spiky_Spike](https://github.com/spiky-s) for the provided developments
+特别感谢 [spiky_Spike](https://github.com/spiky-s) 提供的开发支持。
