@@ -17,7 +17,7 @@
 
 **Supercell 在游戏的新版本中也使用了 KTX 纹理，因此建议执行此步骤。
 
-要启用 KTX 模块，你需要从官方网站获取 "PVRTexToolCLI" 二进制文件: https://developer.imaginationtech.com/pvrtextool/。
+要启用 KTX 模块，你需要从官方网站获取 "PVRTexToolCLI" 二进制文件: https://developer.imaginationtech.com/pvrtextool/
 
 然后将 CLI 放置在主脚本文件夹中的 "system/bin/" 目录下。
 
