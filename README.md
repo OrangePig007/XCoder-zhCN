@@ -22,6 +22,6 @@
 然后将 CLI 放置在主脚本文件夹中的 "system/bin/" 目录下。
 
 ## 致谢
-该工具基于原 版[XCoder](https://github.com/MasterDevX/xcoder), 开发者：[MasterDevX](https://github.com/MasterDevX)</br>
+该工具基于原版 [XCoder](https://github.com/MasterDevX/xcoder), 作者：[MasterDevX](https://github.com/MasterDevX)</br>
 
 特别感谢 [spiky_Spike](https://github.com/spiky-s) 提供的开发支持。
